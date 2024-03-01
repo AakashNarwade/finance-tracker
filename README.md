@@ -11,4 +11,4 @@ $ npm run dev        // run it locally
 
 $ cd server   // go to server folder
 $ npm i       // npm install packages
-$ npm run dev // run it locally
+$ npm run start // run it locally
