@@ -34,7 +34,7 @@ const Sidebar = () => {
               <li className="hover:bg-red-200 p-4 rounded-lg">Dashboard</li>{" "}
             </div>
           </Link>
-          <Link to={"/transaction"}>
+          <Link to={"/dashboard"}>
             <div className="flex items-center py-4 gap-3">
               <span>
                 <FaMoneyBillTrendUp size={20} />
