@@ -1,5 +1,4 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import "./App.css";
 import MainContent from "./components/MainContent";
 import Dashboard from "./pages/Dashboard";
 import Income from "./pages/Income";
