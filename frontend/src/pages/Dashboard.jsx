@@ -17,12 +17,11 @@ const Dashboard = () => {
     selectedIncomeAmount.totalIncome,
     selectedExpenseAmount.totalExpense
   );
-  console.log("totalAmount=> ", selectedIncomeAmount);
+  
   useEffect(() => {
     const fetchData = async () => {
       const res = await axios.get(`${BASE_URL}get-incomes`);
       const data = res.data;
-      console.log(res.data);
       setTransactions(data);
       dispatch(addIncome(res.data));
     };

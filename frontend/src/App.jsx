@@ -3,7 +3,6 @@ import MainContent from "./components/MainContent";
 import Dashboard from "./pages/Dashboard";
 import Income from "./pages/Income";
 import Expense from "./pages/Expense";
-import ViewTransaction from "./pages/ViewTransaction";
 
 // import Footer from "./components/Footer";
 function App() {
@@ -32,10 +31,6 @@ function App() {
         {
           path: "/expense",
           element: <Expense />,
-        },
-        {
-          path: "/transaction",
-          element: <ViewTransaction />,
         },
       ],
     },
